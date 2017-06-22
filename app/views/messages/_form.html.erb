@@ -13,12 +13,18 @@
 
   <div class="field">
     <%= form.label :title %>
-    <%= form.text_field :title, id: :message_title %>
+    <%= form.text_area :title, id: :message_title %>
   </div>
 
   <div class="field">
     <%= form.label :message %>
     <%= form.text_area :message, id: :message_message %>
+  </div>
+  
+  
+  <div class="field">
+    <%= form.label :name %>
+    <%= form.text_area :name, id: :message_name %>
   </div>
 
   <div class="actions">
